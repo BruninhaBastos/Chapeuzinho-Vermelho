@@ -8,12 +8,25 @@
 </head>
 <body>
 <main>
-    <div class="passo">
+    <div class="passo ativo" id="passo-0">
+
         <img src="./3104217-cenario-de-floresta-profunda-vetor.jpg" alt="">
         <p>Você recebe de sua mãe a missão: levar a cesta de doces até a casa da vovó.
  No portão da floresta, precisa decidir por onde ir:</p>
-        <button>Caminho da Floresta Sombria</button>
-        <button>Estrada dos Campos Floridos</button>
+        <button class="btn-proximo" data-proximo="1">Caminho da Floresta Sombria</button>
+        <button class="btn-proximo" data-proximo="2">Estrada dos Campos Floridos</button>
+    </div>
+    <div class="passo ativo" id="passo-2">
+        <img src="./bela-foto-de-um-campo-verde-coberto-de-flores-amarelas-perto-das-cerejeiras-1920x650.jpg" alt="">
+        <p>Você escolheu ir pelos campos floridos e encontrou um caçador que se ofereceu a te acompanhar!:</p>
+        <button class="btn-proximo" data-proximo="11">Ir por um caminho seguro acompanhada do caçador</button>
+        <button class="btn-proximo" data-proximo="12">Evitar o caçador e seguir sozinhha</button>
+    </div>
+    <div class="passo ativo" id="passo-1">
+        <img src="./paisagem-de-floresta-verde-tropical_181624-30814.jpg" alt="">
+        <p> Você escolheu ir para a floresta e um lobo apareceu! Ele está ferido, você irá ajuda-lo?:</p>
+        <button class="btn-proximo" data-proximo="21">Ignorar e seguir viagem</button>
+        <button class="btn-proximo" data-proximo="22">Leva-lo até a casa da vovó</button>
     </div>
 </main>
 
